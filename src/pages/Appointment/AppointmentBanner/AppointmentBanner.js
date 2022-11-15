@@ -3,7 +3,7 @@ import bg from '../../../assets/images/bg.png'
 import { DayPicker } from 'react-day-picker';
 const AppointmentBanner = ({setSelectedDate, selectedDate}) => {
   return (
-    <header style={{background: `url(${bg})`, backgroundSize: 'cover'  }} className='p-10'>
+    <header style={{background: `url(${bg})`, backgroundSize: 'cover'  }}>
       <div className="hero">
         <div className="hero-content flex-col lg:flex-row-reverse gap-16">
           <img
